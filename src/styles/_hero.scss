@@ -54,8 +54,19 @@
 
   @media (max-width: 768px) {
     .hero {
+      .container {
+        width: 80%;
+      }
       &--flex {
         flex-direction: column;
+      }
+    }
+  }
+
+  @media (max-width: 460px) {
+    .hero {
+      .container {
+        width: 60%;
       }
     }
   }

@@ -26,6 +26,10 @@
 
   @media (max-width: 768px) {
     .gosto {
+      .container {
+        width: 80%;
+      }
+
       &--flex {
         flex-direction: column;
         gap: 10px;
@@ -33,14 +37,19 @@
       }
 
       &__meg {
+        padding: 10px;
         height: 60%;
       }
     }
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 460px) {
     .gosto {
+      .container {
+        width: 60%;
+      }
       &__meg {
+        padding: 10px;
         height: 40%;
       }
     }

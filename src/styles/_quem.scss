@@ -25,10 +25,20 @@
 
   @media (max-width: 768px) {
     .quem {
+      .container {
+        width: 80%;
+      }
       &--flex {
         flex-direction: column;
         gap: 10px;
         margin-top: 40px;
+      }
+    }
+  }
+  @media (max-width: 460px) {
+    .quem {
+      .container {
+        width: 60%;
       }
     }
   }
