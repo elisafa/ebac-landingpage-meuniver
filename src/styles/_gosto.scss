@@ -28,6 +28,12 @@
     .gosto {
       &--flex {
         flex-direction: column;
+        gap: 10px;
+        margin-top: 40px;
+      }
+
+      &__meg {
+        height: 300px;
       }
     }
   }
