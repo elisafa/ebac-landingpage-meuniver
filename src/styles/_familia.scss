@@ -1,0 +1,25 @@
+@use "mixins";
+
+.familia {
+  background: linear-gradient(#ffabab, #ffe0e5);
+
+  &__titulo {
+    @include mixins.titulo;
+    color: #000;
+  }
+
+  &__nos {
+    border-radius: 20px;
+    width: 450px;
+  }
+
+  &--flex {
+    @include mixins.flex;
+  }
+
+  p {
+    font-family: "Lobster", cursive;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}

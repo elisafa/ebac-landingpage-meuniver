@@ -1,0 +1,26 @@
+@use "mixins";
+
+.gosto {
+  background: linear-gradient(#ffe0e5, #ffabab);
+
+  &__titulo {
+    @include mixins.titulo;
+    color: #000;
+  }
+
+  &__meg {
+    border-radius: 20px;
+    width: 450px;
+  }
+
+  &--flex {
+    @include mixins.flex;
+    flex-direction: row-reverse;
+  }
+
+  p {
+    font-family: "Lobster", cursive;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
