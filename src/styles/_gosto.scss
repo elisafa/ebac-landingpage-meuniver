@@ -33,7 +33,15 @@
       }
 
       &__meg {
-        height: 70%;
+        height: 60%;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .gosto {
+      &__meg {
+        height: 40%;
       }
     }
   }
