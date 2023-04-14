@@ -1,0 +1,26 @@
+@use "mixins";
+
+.footer {
+  background: linear-gradient(#ffe0e5, blue);
+
+  &__titulo {
+    @include mixins.titulo;
+    margin-bottom: 60px;
+    color: #000;
+  }
+
+  &__img {
+    border-radius: 20px;
+    padding: 20px;
+    display: block;
+    margin: 10px auto 0;
+    height: 400px;
+  }
+
+  p {
+    font-family: "Lobster", cursive;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
