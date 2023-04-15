@@ -15,6 +15,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/main.scss" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Meu niver</title>
   </head>
   <body>
@@ -36,7 +37,7 @@
     </header>
 
     <section class="quem">
-      <div class="container">
+      <div class="container" data-aos="fade-right">
         <h2 class="quem__titulo">Quem sou eu?</h2>
         <div class="quem--flex">
           <img class="quem__nascida" src="./images/rescemnascida.jpg" alt="" />
@@ -49,7 +50,7 @@
     </section>
 
     <section class="gosto">
-      <div class="container">
+      <div class="container" data-aos="fade-left">
         <h2 class="gosto__titulo">O que eu gosto?</h2>
         <div class="gosto--flex">
           <img class="gosto__meg" src="./images/mel.jpg" alt="" />
@@ -62,7 +63,7 @@
     </section>
 
     <section class="familia">
-      <div class="container">
+      <div class="container" data-aos="fade-right">
         <h2 class="familia__titulo">Minha família</h2>
         <div class="familia--flex">
           <img class="familia__nos" src="./images/familia.jpg" alt="" />
@@ -77,7 +78,7 @@
     </section>
 
     <footer class="footer">
-      <div class="container">
+      <div class="container" data-aos="fade-left">
         <h2 class="footer__titulo">Convite</h2>
         <p>
           Espero te encontrar daqui alguns anos na minha festa especial de 15
@@ -87,6 +88,7 @@
       </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
   </body>
 </html>
