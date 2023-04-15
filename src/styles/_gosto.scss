@@ -45,12 +45,11 @@
 
   @media (max-width: 460px) {
     .gosto {
-      .container {
-        width: 60%;
-      }
+      // .container {
+      //   width: 60%;
+      // }
       &__meg {
-        padding: 10px;
-        height: 40%;
+        width: 300px;
       }
     }
   }

@@ -38,8 +38,8 @@
 
   @media (max-width: 460px) {
     .familia {
-      .container {
-        width: 60%;
+      &__nos {
+        width: 300px;
       }
     }
   }

@@ -65,8 +65,15 @@
 
   @media (max-width: 460px) {
     .hero {
-      .container {
-        width: 60%;
+      padding-top: 34px;
+      padding-bottom: 60px;
+
+      &__rebeca {
+        height: 300px;
+      }
+
+      &__titulo {
+        padding-top: 0;
       }
     }
   }

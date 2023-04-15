@@ -37,8 +37,12 @@
   }
   @media (max-width: 460px) {
     .quem {
-      .container {
-        width: 60%;
+      // .container {
+      //   width: 60%;
+      // }
+
+      &__nascida {
+        width: 300px;
       }
     }
   }
